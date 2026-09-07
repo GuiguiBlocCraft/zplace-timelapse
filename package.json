@@ -1,0 +1,16 @@
+{
+  "name": "zplace",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render": "ffmpeg -framerate 30 -i images/frame-%04d.png -c:v libx264 -pix_fmt yuv420p -crf 18 zplace_timelapse.mp4"
+  },
+  "keywords": [],
+  "author": "GuiguiBlocCraft",
+  "license": "ISC",
+  "description": "Download last board each minute and make a final video",
+  "dependencies": {
+    "canvas": "^3.2.0"
+  }
+}
