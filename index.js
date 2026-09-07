@@ -91,8 +91,6 @@ function convertToImages(data) {
 }
 
 async function interval_precision(callback) {
-	var date = new Date()
-
 	while(true) {
 		await delay(60000 - (new Date().getSeconds() * 1000))
 		callback()
