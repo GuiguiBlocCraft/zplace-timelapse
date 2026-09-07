@@ -16,8 +16,7 @@ var frame = 0
 while(true) {
 	frame++
 
-	if(!existsSync(`images/pixel_${numberPadLeft(frame, 4)}.txt`) && !existsSync(`images/frame-${numberPadLeft(frame, 4)}.png`)
-		&& !existsSync(`images/output-${numberPadLeft(frame, 4)}.png`))
+	if(!existsSync(`images/frame-${numberPadLeft(frame, 4)}.png`))
 		break
 }
 

@@ -1,5 +1,4 @@
 module.exports = {
-
 	/**
 	 * Affiche X zéros devant le nombre
 	 * @param {number} number
