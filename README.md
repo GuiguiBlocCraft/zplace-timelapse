@@ -8,7 +8,7 @@ Le système capture chaque image toutes les minutes.
 
 # Rendu final
 
-<video controls src="https://servgbc.fr/download/zplace_timelapse.mp4" title="ce lien"></video>
+**[VOIR LE RENDU FINAL](https://servgbc.fr/download/zplace_timelapse.mp4)**
 
 ---
 
